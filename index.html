@@ -4,180 +4,250 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vector NE | Consultancy</title>
-  <meta name="description" content="Outcome-led consultancy. Strategy, delivery, and transformation with calm, credible execution." />
+  <meta name="description" content="Straight-forward, professional consultancy support. Strategy into delivery — with calm governance and credible reporting." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
+<header class="site-header">
   <div class="container nav">
-    <div class="logo"><a href="#home">Vector NE</a></div>
-    <nav>
-      <a href="#services">Services</a>
-      <a href="#case-studies">Case Studies</a>
+    <a class="brand" href="#home">Vector NE</a>
+
+    <nav class="nav-links">
+      <a href="#expertise">Expertise</a>
       <a href="#about">About</a>
-      <a href="https://calendly.com/" class="btn" target="_blank" rel="noopener">Book a Call</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="btn btn--outline">Contact</a>
     </nav>
   </div>
 </header>
 
-<section id="home" class="hero">
-  <div class="container">
-    <div class="pills">
-      <span class="pill">Outcome-led</span>
-      <span class="pill">Strategy + delivery</span>
-    </div>
-
-    <h1>Strategy into Delivery.</h1>
-    <p>
-      We help organisations clarify priorities, improve delivery control,
-      and execute transformation with confidence — without adding noise.
-    </p>
-
-    <div class="cta">
-      <a href="#contact" class="btn primary">Start a Conversation</a>
-      <a href="#services" class="btn ghost">See Services</a>
-    </div>
-
-    <div class="outcomes">
-      <div class="chip">Clear priorities</div>
-      <div class="chip">Credible reporting</div>
-      <div class="chip">Faster decisions</div>
-      <div class="chip">Calm governance</div>
-    </div>
-  </div>
-</section>
-
-<section id="services" class="section">
-  <div class="container">
-    <div class="section-head">
-      <h2>Services</h2>
-      <p>Pick a focused engagement or combine them. Most clients start with a short diagnostic and a 30/60/90-day plan.</p>
-    </div>
-
-    <div class="grid">
-      <div class="card">
-        <h3>Strategy & Transformation</h3>
-        <p>Define priorities, align stakeholders, and build credible plans.</p>
-        <ul>
-          <li>Discovery + diagnostic</li>
-          <li>Roadmap + benefits</li>
-          <li>Operating model + governance</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Programme Controls</h3>
-        <p>Restore clarity in milestones, dependencies, and reporting.</p>
-        <ul>
-          <li>Recovery planning</li>
-          <li>Cadence + governance</li>
-          <li>Risk / issue control</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Digital & Data</h3>
-        <p>Design services and reporting that support real decisions.</p>
-        <ul>
-          <li>Service design</li>
-          <li>Data standards + reporting</li>
-          <li>Implementation support</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="case-studies" class="section alt">
-  <div class="container">
-    <div class="section-head">
-      <h2>Case Studies</h2>
-      <p>Short, outcome-led examples. Replace these with your real ones when ready.</p>
-    </div>
-
-    <div class="grid">
-      <div class="card">
-        <h3>Delivery Reset</h3>
-        <p>Rebuilt governance cadence and improved forecasting accuracy.</p>
-        <div class="meta"><strong>Outcome:</strong> fewer escalations, clearer decisions</div>
-      </div>
-
-      <div class="card">
-        <h3>Service Simplification</h3>
-        <p>Reduced friction and improved operational flow across teams.</p>
-        <div class="meta"><strong>Outcome:</strong> shorter cycle time, fewer handoff failures</div>
-      </div>
-
-      <div class="card">
-        <h3>Controls Uplift</h3>
-        <p>Introduced practical controls without adding bureaucracy.</p>
-        <div class="meta"><strong>Outcome:</strong> consistent reporting, stronger confidence</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="about" class="section">
-  <div class="container narrow">
-    <h2>About</h2>
-    <p>
-      Vector NE is a focused consultancy operating across strategy,
-      delivery, governance, and transformation. We bring clarity to complex
-      environments and support calm, controlled execution.
-    </p>
-
-    <div class="about-box">
+<main id="home">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
       <div>
+        <p class="eyebrow">Welcome to</p>
+        <h1 class="hero-title">
+          Vector<br/>
+          NE<br/>
+          Consultancy
+        </h1>
+
+        <div class="hero-actions">
+          <a href="#expertise" class="btn btn--solid">Our Expertise</a>
+          <a href="#about" class="btn btn--ghost">About us</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Experience summary">
+        <div class="panel-row">
+          <div class="panel-kicker">Expertise</div>
+          <div class="panel-stat">
+            <div class="panel-number">10+</div>
+            <div class="panel-sub">years<br/>industry<br/>experience</div>
+          </div>
+        </div>
+
+        <div class="panel-divider"></div>
+
+        <div class="panel-copy">
+          <h2>Straight-forward, professional advice</h2>
+          <p>
+            Outcome-led consultancy support across strategy, delivery, governance and digital change.
+            Calm execution. Clear reporting. Practical plans that survive contact with reality.
+          </p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- VALUE / PRINCIPLES -->
+  <section class="section">
+    <div class="container narrow">
+      <h2 class="section-title">How we work</h2>
+
+      <div class="stack">
+        <div class="blurb">
+          <h3>Delivering solutions through innovation</h3>
+          <p>We focus on practical improvements that reduce friction, improve decision-making, and keep delivery moving.</p>
+        </div>
+
+        <div class="blurb">
+          <h3>Senior-led, hands-on support</h3>
+          <p>Work is led by experienced consultants — clear accountability, crisp outputs, and minimal noise.</p>
+        </div>
+
+        <div class="blurb">
+          <h3>Flexible, project-based engagement</h3>
+          <p>Strategic or technical. Short diagnostics or longer delivery support — designed around what you actually need.</p>
+        </div>
+
+        <div class="blurb">
+          <h3>Cost-effective delivery</h3>
+          <p>Lean team, strong associates, and only the right effort applied — no bloated process for the sake of it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERTISE -->
+  <section id="expertise" class="section section--alt">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Expertise</h2>
+        <p class="section-sub">
+          A menu of support areas. We can run a short diagnostic first, then deliver a clear plan with owners, milestones and governance.
+        </p>
+      </div>
+
+      <div class="expertise-grid">
+        <a class="expertise-item" href="#contact">
+          <div class="expertise-title">Delivery Recovery</div>
+          <div class="expertise-desc">Stabilise governance, clarify critical path, rebuild confidence.</div>
+        </a>
+
+        <a class="expertise-item" href="#contact">
+          <div class="expertise-title">Programme Controls</div>
+          <div class="expertise-desc">Milestones, dependencies, reporting and decision cadence.</div>
+        </a>
+
+        <a class="expertise-item" href="#contact">
+          <div class="expertise-title">Operating Model</div>
+          <div class="expertise-desc">Roles, ownership, escalation, governance that supports pace.</div>
+        </a>
+
+        <a class="expertise-item" href="#contact">
+          <div class="expertise-title">Stakeholder Alignment</div>
+          <div class="expertise-desc">Unblock decisions across complex, multi-party environments.</div>
+        </a>
+
+        <a class="expertise-item" href="#contact">
+          <div class="expertise-title">Digital Transformation</div>
+          <div class="expertise-desc">Prioritise, design, deliver — and keep it measurable.</div>
+        </a>
+
+        <a class="expertise-item" href="#contact">
+          <div class="expertise-title">Data & Reporting</div>
+          <div class="expertise-desc">Practical metrics, clean dashboards, decision-grade information.</div>
+        </a>
+
+        <a class="expertise-item" href="#contact">
+          <div class="expertise-title">Service Design</div>
+          <div class="expertise-desc">Improve journeys, handoffs, and operational reliability.</div>
+        </a>
+
+        <a class="expertise-item" href="#contact">
+          <div class="expertise-title">Governance Design</div>
+          <div class="expertise-desc">Right forums, right data, right decisions — no theatre.</div>
+        </a>
+
+        <a class="expertise-item" href="#contact">
+          <div class="expertise-title">Assurance & Reviews</div>
+          <div class="expertise-desc">Independent, outcome-led review with clear next steps.</div>
+        </a>
+      </div>
+
+      <div class="cta-row">
+        <a href="#contact" class="btn btn--solid">Get in touch today</a>
+        <a href="#about" class="btn btn--ghost">More about us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-sub">A few example outcomes. Swap these for your real case studies when ready.</p>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Multi-stakeholder delivery reset</h3>
+          <p>Single cadence, clear ownership, and reporting that stakeholders trusted again.</p>
+          <div class="meta"><strong>Outcome:</strong> fewer escalations, clearer decisions</div>
+        </div>
+
+        <div class="card">
+          <h3>Digital service simplification</h3>
+          <p>Reduced friction in journeys and improved operational handoffs between teams.</p>
+          <div class="meta"><strong>Outcome:</strong> shorter cycle time, fewer failure points</div>
+        </div>
+
+        <div class="card">
+          <h3>Controls uplift</h3>
+          <p>Introduced practical controls without over-engineering process.</p>
+          <div class="meta"><strong>Outcome:</strong> consistent forecasting and governance clarity</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section section--alt">
+    <div class="container narrow">
+      <h2 class="section-title">About</h2>
+      <p class="lead">
+        Vector NE is a focused consultancy operating across strategy, delivery, governance and transformation.
+        We bring clarity to complex environments and support calm, controlled execution.
+      </p>
+
+      <div class="about-box">
         <div class="kicker">What you get</div>
         <ul class="ticks">
-          <li>Straight answers and clear prioritisation</li>
-          <li>A delivery plan with owners and milestones</li>
-          <li>Metrics that matter (not dashboard theatre)</li>
-          <li>Governance that supports pace, not friction</li>
+          <li>Clear priorities and delivery plan</li>
+          <li>Decision-grade reporting (not dashboards for show)</li>
+          <li>Governance that supports pace</li>
+          <li>Senior-led accountability</li>
         </ul>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="contact" class="section alt">
-  <div class="container narrow">
-    <h2>Contact</h2>
-    <p class="muted">
-      Send a message — we’ll reply quickly. Or email
-      <a href="mailto:Vector.ne@outlook.co">Vector.ne@outlook.co</a>.
-    </p>
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container narrow">
+      <h2 class="section-title">Contact</h2>
+      <p class="muted">
+        Send a message — we’ll reply quickly. Or email
+        <a href="mailto:hello@vector-ne.co.uk">hello@vector-ne.co.uk</a>.
+      </p>
 
-    <!-- Netlify Forms: works automatically on Netlify -->
-    <form name="contact" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="contact" />
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
 
-      <label for="name">Name</label>
-      <input id="name" name="name" required placeholder="Your name" />
+        <label for="name">Name</label>
+        <input id="name" name="name" required placeholder="Your name" />
 
-      <label for="email">Email</label>
-      <input id="email" name="email" type="email" required placeholder="you@company.com" />
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required placeholder="you@company.com" />
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" required placeholder="What are you trying to achieve?"></textarea>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="What are you trying to achieve?"></textarea>
 
-      <button type="submit" class="btn primary full">Send</button>
-    </form>
+        <button type="submit" class="btn btn--solid btn--full">Send</button>
+      </form>
 
-    <div class="contact-mini">
-      <div><strong>Email:</strong> <a href="mailto:Vector.ne@outlook.com">Vector.ne@outlook.co</a></div>
-      <div><strong>Location:</strong> North East, UK</div>
+      <div class="contact-mini">
+        <div><strong>Email:</strong> <a href="mailto:hello@vector-ne.co.uk">hello@vector-ne.co.uk</a></div>
+        <div><strong>Location:</strong> North East, UK</div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+</main>
 
-<footer>
-  <div class="container">
-    © 2026 Vector NE · North East, UK
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>© 2026 Vector NE · North East, UK</div>
+    <div class="footer-links">
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+    </div>
   </div>
 </footer>
 
 </body>
 </html>
-
