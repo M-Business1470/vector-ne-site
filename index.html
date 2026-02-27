@@ -4,48 +4,86 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vector NE | Consultancy</title>
+  <meta name="description" content="Outcome-led consultancy. Strategy, delivery, and transformation with calm, credible execution." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <header>
   <div class="container nav">
-    <div class="logo">Vector NE</div>
+    <div class="logo"><a href="#home">Vector NE</a></div>
     <nav>
       <a href="#services">Services</a>
       <a href="#case-studies">Case Studies</a>
       <a href="#about">About</a>
-      <a href="#contact" class="btn">Book a Call</a>
+      <a href="https://calendly.com/" class="btn" target="_blank" rel="noopener">Book a Call</a>
     </nav>
   </div>
 </header>
 
-<section class="hero">
+<section id="home" class="hero">
   <div class="container">
+    <div class="pills">
+      <span class="pill">Outcome-led</span>
+      <span class="pill">Strategy + delivery</span>
+    </div>
+
     <h1>Strategy into Delivery.</h1>
     <p>
       We help organisations clarify priorities, improve delivery control,
-      and execute transformation with confidence.
+      and execute transformation with confidence — without adding noise.
     </p>
-    <a href="#contact" class="btn primary">Start a Conversation</a>
+
+    <div class="cta">
+      <a href="#contact" class="btn primary">Start a Conversation</a>
+      <a href="#services" class="btn ghost">See Services</a>
+    </div>
+
+    <div class="outcomes">
+      <div class="chip">Clear priorities</div>
+      <div class="chip">Credible reporting</div>
+      <div class="chip">Faster decisions</div>
+      <div class="chip">Calm governance</div>
+    </div>
   </div>
 </section>
 
 <section id="services" class="section">
   <div class="container">
-    <h2>Services</h2>
+    <div class="section-head">
+      <h2>Services</h2>
+      <p>Pick a focused engagement or combine them. Most clients start with a short diagnostic and a 30/60/90-day plan.</p>
+    </div>
+
     <div class="grid">
       <div class="card">
         <h3>Strategy & Transformation</h3>
         <p>Define priorities, align stakeholders, and build credible plans.</p>
+        <ul>
+          <li>Discovery + diagnostic</li>
+          <li>Roadmap + benefits</li>
+          <li>Operating model + governance</li>
+        </ul>
       </div>
+
       <div class="card">
         <h3>Programme Controls</h3>
-        <p>Restore clarity in governance, milestones, and reporting.</p>
+        <p>Restore clarity in milestones, dependencies, and reporting.</p>
+        <ul>
+          <li>Recovery planning</li>
+          <li>Cadence + governance</li>
+          <li>Risk / issue control</li>
+        </ul>
       </div>
+
       <div class="card">
         <h3>Digital & Data</h3>
-        <p>Design services and reporting that actually support decisions.</p>
+        <p>Design services and reporting that support real decisions.</p>
+        <ul>
+          <li>Service design</li>
+          <li>Data standards + reporting</li>
+          <li>Implementation support</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -53,19 +91,28 @@
 
 <section id="case-studies" class="section alt">
   <div class="container">
-    <h2>Case Studies</h2>
+    <div class="section-head">
+      <h2>Case Studies</h2>
+      <p>Short, outcome-led examples. Replace these with your real ones when ready.</p>
+    </div>
+
     <div class="grid">
       <div class="card">
         <h3>Delivery Reset</h3>
         <p>Rebuilt governance cadence and improved forecasting accuracy.</p>
+        <div class="meta"><strong>Outcome:</strong> fewer escalations, clearer decisions</div>
       </div>
+
       <div class="card">
         <h3>Service Simplification</h3>
-        <p>Reduced friction and improved operational flow.</p>
+        <p>Reduced friction and improved operational flow across teams.</p>
+        <div class="meta"><strong>Outcome:</strong> shorter cycle time, fewer handoff failures</div>
       </div>
+
       <div class="card">
         <h3>Controls Uplift</h3>
         <p>Introduced practical controls without adding bureaucracy.</p>
+        <div class="meta"><strong>Outcome:</strong> consistent reporting, stronger confidence</div>
       </div>
     </div>
   </div>
@@ -79,13 +126,49 @@
       delivery, governance, and transformation. We bring clarity to complex
       environments and support calm, controlled execution.
     </p>
+
+    <div class="about-box">
+      <div>
+        <div class="kicker">What you get</div>
+        <ul class="ticks">
+          <li>Straight answers and clear prioritisation</li>
+          <li>A delivery plan with owners and milestones</li>
+          <li>Metrics that matter (not dashboard theatre)</li>
+          <li>Governance that supports pace, not friction</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 
 <section id="contact" class="section alt">
   <div class="container narrow">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:hello@vector-ne.co.uk">hello@vector-ne.co.uk</a></p>
+    <p class="muted">
+      Send a message — we’ll reply quickly. Or email
+      <a href="mailto:hello@vector-ne.co.uk">hello@vector-ne.co.uk</a>.
+    </p>
+
+    <!-- Netlify Forms: works automatically on Netlify -->
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
+
+      <label for="name">Name</label>
+      <input id="name" name="name" required placeholder="Your name" />
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required placeholder="you@company.com" />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required placeholder="What are you trying to achieve?"></textarea>
+
+      <button type="submit" class="btn primary full">Send</button>
+    </form>
+
+    <div class="contact-mini">
+      <div><strong>Email:</strong> <a href="mailto:Vector-ne@outlook.com">hello@vector-ne.co.uk</a></div>
+      <div><strong>Location:</strong> North East, UK</div>
+    </div>
   </div>
 </section>
 
